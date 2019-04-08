@@ -1,5 +1,4 @@
 import React from 'react';
-import SingleSide from './SingleSide';
 
 const NewSingle=({item})=>(
     <div className="col s4">
@@ -12,7 +11,7 @@ const NewSingle=({item})=>(
                 <p>{item.title}</p>
             </div>
             <div className="card-action">
-                <a href={item.url} target="_blank">Full Article</a>
+                <a href={item.url} target="_blank" rel="noopener noreferrer">Full Article</a>
             </div>
         </div>
     </div>
